@@ -1,0 +1,51 @@
+body{
+    background: fixed;
+    background-color: rgb(193, 206, 169);
+    display: block;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+    font-family: 'Courier New';
+}
+button{
+    font-size: 20px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background-color: darkgreen;
+    border: solid black;
+    color: ivory;
+    cursor: pointer;
+    transition: 0.50s;
+}
+
+label{
+    font-weight: bold;
+}
+
+button:hover{
+    color: darkgreen;
+    background-color: ivory;
+}
+
+#uguess{
+    font-size: 15px;
+    font-weight: bold;
+    border: solid;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.dis{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    background-color: ivory;
+    border: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin-right: 450px;
+    margin-left: 450px; */
+}
